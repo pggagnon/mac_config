@@ -9,3 +9,6 @@ brew doctor
 
 compaudit | xargs chmod g-w
 
+brew install wget
+
+# wget --no-parent -r 

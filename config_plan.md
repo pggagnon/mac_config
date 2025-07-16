@@ -7,7 +7,7 @@ sudo softwareupdate --install-rosetta
 
 
 # get config files from github
-example curl -L https://raw.githubusercontent.com/andrewconnell/osx-install/master/scripts/macos-install.zsh | zsh
+example curl -L https://raw.githubusercontent.com/pggagnon/mac_config/refs/heads/main/brew_formula.sh | sh
 
 
 copy over ssh keys then configure them
