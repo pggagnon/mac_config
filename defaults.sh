@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 # copied from https://github.com/SixArm/macos-defaults
 
