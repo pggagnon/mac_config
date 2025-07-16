@@ -1,0 +1,24 @@
+#!/bin/sh
+
+brew install prettyping
+brew install tailscale
+brew install asdf
+brew install autoconf
+brew install git
+brew install gmp
+brew install dropbox
+brew install htop
+brew install imagemagick
+brew install imessage-exporter
+brew install libyaml
+brew install mailsy
+brew install mas
+brew install mpv
+brew install openssl@3
+brew install readline
+brew install starship
+brew install terraform
+brew install uv
+brew install yt-dlp
+brew install hashicorp/tap/terraform
+brew install starship
