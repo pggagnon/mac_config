@@ -20,4 +20,20 @@ compaudit | xargs chmod g-w
 
 brew install wget
 
-# wget --no-parent -r 
+cp .zsh ~/.zsh
+
+# check that the zshrc file exists and contains the lines needed:
+#
+# export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+# export PATH=/bin:/usr/bin:/usr/local/bin:/sbin:${PATH}
+#
+# autoload -Uz compinit && compinit
+# autoload -U +X bashcompinit && bashcompinit
+#
+# complete -o nospace -C /opt/homebrew/bin/terraform terraform
+#
+# eval "$(starship init zsh)"
+#
+# . "$HOME/.local/bin/env"
+#
+# [[ -f ~/.zsh/completions.zsh ]] && source ~/.zsh/completions.zsh
