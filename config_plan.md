@@ -42,3 +42,5 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-
 `cd [location of repo]`
 
 ## manually run init.sh
+
+## input the registration keys for istat-menus 5 and daisydisk once they've been installed
