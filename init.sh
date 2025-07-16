@@ -10,15 +10,13 @@
 softwareupdate --install-rosetta --agree-to-license
 
 # install brew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 brew update
 brew upgrade
 brew doctor
 
 compaudit | xargs chmod g-w
-
-brew install wget
 
 cp .zsh ~/.zsh
 
@@ -37,3 +35,10 @@ cp .zsh ~/.zsh
 # . "$HOME/.local/bin/env"
 #
 # [[ -f ~/.zsh/completions.zsh ]] && source ~/.zsh/completions.zsh
+
+# update zsh after changes
+exec /bin/zsh
+
+# run all installs
+echo "running update.sh"
+bash ./update.sh
