@@ -40,7 +40,7 @@ defaults write NSGlobalDomain com.apple.swipescrolldirection -bool true
 defaults write NSGlobalDomain KeyRepeat -int 2 
 
 # Set a fast initial key repeat. We prefer 4 (60ms). The default minimum is 15 (225ms). May require reboot.
-defaults write NSGlobalDomain InitialKeyRepeat -int 4
+defaults write NSGlobalDomain InitialKeyRepeat -int 15
 
 ## NSGlobalDomain NS*
 
