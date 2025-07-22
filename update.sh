@@ -8,8 +8,8 @@ brew outdated
 brew upgrade
 
 # check for outdated casks
-brew cask outdated
-brew cask upgrade
+brew outdated --cask
+brew upgrade --cask
 
 brew cleanup
 
