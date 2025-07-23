@@ -22,8 +22,8 @@ cp .zsh ~/.zsh
 
 # check that the zshrc file exists and contains the lines needed:
 #
-# export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 # export PATH=/bin:/usr/bin:/usr/local/bin:/sbin:${PATH}
+# export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 #
 # autoload -Uz compinit && compinit
 # autoload -U +X bashcompinit && bashcompinit
