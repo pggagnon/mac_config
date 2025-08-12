@@ -28,6 +28,7 @@ brew install --cask netnewswire
 echo "get the regsitration key for istat-menus 5"
 brew install --cask istat-menus@5
 brew install --cask ungoogled-chromium
+brew install --cask jordanbaird-ice
 
 brew install --cask hammerspoon
 cat >> ~/.hammerspoon/init.lua << EOF

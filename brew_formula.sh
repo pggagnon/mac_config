@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 brew install prettyping
-brew install tailscale
 brew install asdf
 brew install autoconf
 brew install git
